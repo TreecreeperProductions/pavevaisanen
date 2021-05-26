@@ -1,0 +1,376 @@
+
+
+body {
+	font-size: 16px;
+	background-color: rgba(22, 19 ,1, 1);
+}
+
+p {
+	font-size: 100%
+}
+
+h1 {
+	font-size: 430%;
+}
+
+
+
+.app-store {
+	padding-top: 7%;
+	display: flex;
+ 	justify-content: center;
+	
+}
+
+.bg {
+  background-image: url(../images/plant.jpg);
+  min-height: 60vh; 
+/*   background-attachment: fixed; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+
+.bg-custom {
+	background-color: rgba(22, 19 ,1, 0.95);	
+}
+
+.bg-feature {
+	background-color: white;
+
+}
+
+.bg-contact {
+	background-color: rgb(247,247,247);
+	
+}
+
+#bullet-span {
+	position: relative;
+	left: -6px;
+}
+
+#center-header {
+	
+	text-align: center;
+	padding-top: 40vh;
+	padding-bottom: 40vh;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+
+
+
+
+
+.center-ipad {
+	max-width: 5%;
+	
+}
+
+
+#content {
+
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 75%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+	
+}
+
+#rowEven {
+	padding-top: 5vw;
+	padding-bottom: 5vw;
+	background-color: White;
+	
+}
+
+
+#rowOdd {
+	padding-top: 5vw;
+	padding-bottom: 5vw;
+	background-color: AliceBlue;
+}
+
+
+#portfolio {
+	padding-top: 3vw;
+	padding-bottom: 3vw;
+	background-color: rgba(22, 19 ,1, 0.92);
+	text-align: center;
+}
+
+
+#rowImage {
+	display: block;
+	margin-left: auto;
+  margin-right: auto;
+	max-width: 80%;
+    height:auto;
+}
+
+
+#headerText {
+
+	text-align: center;
+	font-weight: 700;
+}
+
+
+#subHeaderText {
+
+	text-align: center;
+	font-weight: 100;
+	padding-bottom: 1%;
+}
+
+
+.contact-image {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-align: center;
+}
+
+.contact-header {
+	padding-top: 5%;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: x-large;	
+	padding-left: 10%;
+}
+
+.email {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 20px;
+	max-width: 90%;
+	
+}
+
+.feature-img-1 {
+	display: block;
+margin-left: auto;
+margin-right: auto;
+max-width: 30%;
+max-height: auto;
+padding-top: 8%;
+padding-bottom: 4%;
+
+}
+
+.feature-img-2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 80%;
+	max-height: auto;
+	padding-top: 8%;
+	padding-bottom: 4%;
+
+}
+
+
+
+.footer {
+	background-color: rgba(22, 19 ,1, 1);
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-family: "Lato-Light";
+/* 	font-size: 1rem; */
+}
+
+
+.header {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	color: #282615;
+}
+
+
+.text-responsive {
+  font-size: calc(1% + 1vw + 1vh);
+}
+
+
+hr {
+	max-width: 95%;
+	border-top : 1.5px solid black;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+#info-box {
+	padding-bottom: 10%;
+}
+
+.my-jumbotron {
+/*
+	background-color: rgba(65,117,5,0.26) !important;
+	background-image: url(../images/ipad2.png);
+*/
+/*
+	background-repeat: no-repeat;
+	margin-bottom: 5%;
+*/
+}
+
+#language {
+	
+	width: 50%;
+	float: left;
+
+}
+
+.language-list {
+	padding-left: 20%;
+	opacity: 0.8;
+	
+}
+
+
+
+.mockup {
+	display: block;
+margin-left: auto;
+margin-right: auto;
+max-width: 100%;
+max-height: auto%;
+padding-top: 1;
+padding-bottom: 1%;
+
+}
+
+
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+	 border: 1px solid white;
+}
+
+
+.nav-custom {
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight: 200;
+	font-size: 80%;
+
+}
+
+@media (pointer:fine) {
+    /* Primary Input is a fine pointer device such as a mouse or stylus */
+    
+    .nav-custom:hover {
+	cursor: pointer;
+	color: yellow;
+	}
+}
+
+@media (hover:none) {
+    /* Primary Input doesn't respond to hover at all, even partially (ie: there is no pointing device) */
+    .nav-custom:hover {
+	cursor: pointer;
+	color: white;
+	}
+    
+    
+}
+
+
+
+.paragraph-header {
+	font-family: 'Overpass', sans-serif;
+/* 	font-size: medium; */
+	font-size: 24px;
+	font-weight: 800;
+
+
+}
+
+
+
+.paragraph-frontPage {
+	font-family: 'Overpass', sans-serif;
+/* 	font-size: medium; */
+	font-size: 12px;
+	font-weight: 700;
+	position: relative;
+	top: -15px;
+}
+
+.paragraph-contact {
+	padding-top: 5%;
+	padding-left: 3%;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	text-align: left;
+}
+
+.paragraph-feature-header {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: x-large;
+	text-align: center;
+}
+
+.paragraph-feature-body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	text-align: left;
+	padding-left: 10%;
+	padding-right: 10%;
+	opacity: 0.8;
+	
+}
+
+
+.paragraph-feature-body-end {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	text-align: left;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 12vw;
+	opacity: 0.8;
+	
+}
+
+#privacy {
+
+	text-align: center;
+	padding-top: 2vw;
+	
+}
+
+.privacy-header {
+	font-family: 'Lato', sans-serif;
+	text-align: left;
+	padding-left: 10%;
+	padding-top: 2%;
+
+}
+
+#privacyText {
+	
+padding-top: 5%;
+}
+
+
+
+
+
+
+
+
+
